@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load treemenutags %}
+{% block content %}
+  {% autoescape off %}
+    {% draw_menu main_menu %}
+  {% endautoescape %}
+{% endblock %}  
